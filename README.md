@@ -9,7 +9,7 @@ grunt-forever
 This grunt task plugin has been updated to work with [Grunt 0.4.0](https://github.com/gruntjs/grunt/wiki/Getting-started) release. The working version for Grunt 0.3.x has been tagged [0.2.2](https://github.com/bustardcelly/grunt-forever/tree/0.2.2).
 
 ## Getting Started
-Install this grunt plugin next to your project's [grunt.js gruntfile](https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md) with: 
+Install this grunt plugin next to your project's [grunt.js gruntfile](https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md) with:
 
 ```
 $ npm install grunt-forever
@@ -81,6 +81,10 @@ Logs the forever outiput to file. If omitted, not generated.
 ##### killSignal ```string```
 
 Exit signal specification. Defaults to `SIGKILL`.
+
+##### args ```[string]```
+
+An array of `arguments` to pass to application at launch. Example: ```['--redis', '--no-grunt']```
 
 ### Config Example
 ```javascript
