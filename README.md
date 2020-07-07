@@ -21,6 +21,8 @@ Then add this line to your project's `grunt.js` gruntfile:
 grunt.loadNpmTasks('grunt-forever');
 ```
 
+For sailsjs projects use these [gist](https://gist.github.com/hadins/14e0914cc8f000c6269f0e652cbc540f)
+
 ## Tests
 There are several specs verifying the `start`, `stop` and `restart` commands for the task. To run the feature specs:
 
